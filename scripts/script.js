@@ -79,7 +79,7 @@ let durationButton = document.getElementById("duration-button");
 function changeDuration() {
   let durationText = document.getElementById("duration-text");
   duration = prompt("Enter a new Duration: ");
-  durationText.innerHTML = duration;
+  durationText.textContent = duration;
 
   recalculate();
 }
